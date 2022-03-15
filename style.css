@@ -4,9 +4,6 @@
     border: 0;
 }
 body{
-    width:100vw;
-    height: 100vh;
-
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #header{
@@ -22,7 +19,7 @@ header > h1{
     max-width: 980px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px;
-    margin: 0 500px;
+    margin: auto;
     background-color: #ecc9da2c;
 }
 #estacao{
@@ -50,7 +47,8 @@ p{
     margin-top: 4vh;
 }
 #autor{
-    margin: 3vh 0 0 50vh;
+    /*margin: 3vh 0 0 50vh;*/
+    margin: auto;
     margin-bottom: -5vh;
     
 }
