@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width:100vw;
+    height: 100vh;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    background-color: #ECC9DA;
+    width: 100%;
+    height: 10vh;
+}
+header > h1{
+    text-align: center;
+    padding-top: 1vh;
+}
+#section1{
+    max-width: 980px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px;
+    margin: 0 500px;
+    background-color: #ecc9da2c;
+}
+#estacao{
+    text-align: center;
+    margin: 1vh 0 -10vh 0;
+}
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 12vh;    
+}
+#poema{
+    min-width: 35%;
+    height: 10%;
+    margin: 6.5vh 0 0 0;
+}
+p{
+    text-align: justify;
+}
+#imagem{
+    width: 35vh;
+    height: 30vh;
+    border-radius: 50%;
+    margin-top: 4vh;
+}
+#autor{
+    margin: 3vh 0 0 50vh;
+    margin-bottom: -5vh;
+    
+}
+#input{
+    padding: 2vh 5vh;
+    margin: 0vh 0 4vh 25vh;
+    box-shadow: -0 0 1px;
+    background-color: rgb(224, 224, 224);
+}
+#footer{
+    background-color: #ECC9DA;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.p-footer{
+    margin: 0 2vw;
+}
